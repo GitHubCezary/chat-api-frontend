@@ -52,7 +52,7 @@ class Chat extends Component {
       const jwtToken = "/nwmbEe24SlrwOMCI/tJPfxUuBYZhDV151svTWQjQ0c="; // Zastąp tym swoim rzeczywistym tokenem JWT
 
       this.client = new Client({
-        brokerURL: "wss://18.192.26.213:443/chat/websocket",
+        brokerURL: "ws://localhost:8080/chat/websocket",
 
         debug: function (str) {
           console.log(str);

@@ -14,7 +14,7 @@ const LoginForm = ({ isLoggedIn, onLogin }) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://18.192.26.213:443/login", {
+      const response = await fetch("https://localhost:8080/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
